@@ -9,7 +9,7 @@ let package = Package(
     ],
     targets: [
         // Main application target
-        .target(
+        .executableTarget(
             name: "swift-practice",
             dependencies: ["Note"],  // Dependency on the 'Note' module
             path: "Sources/swift-practice"  // Main application source folder

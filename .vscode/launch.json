@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:swift-practice}",
+			"name": "Debug swift-practice",
+			"program": "${workspaceFolder:swift-practice}/.build/debug/swift-practice",
+			"preLaunchTask": "swift: Build Debug swift-practice"
+		},
+		{
+			"type": "lldb",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:swift-practice}",
+			"name": "Release swift-practice",
+			"program": "${workspaceFolder:swift-practice}/.build/release/swift-practice",
+			"preLaunchTask": "swift: Build Release swift-practice"
+		}
+	]
+}
